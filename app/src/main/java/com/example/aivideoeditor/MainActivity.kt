@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             AIVideoEditorTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Nayan",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }

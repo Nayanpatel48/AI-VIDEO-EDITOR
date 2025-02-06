@@ -3,3 +3,14 @@ plugins {
     alias(libs.plugins.android.application) apply false
     alias(libs.plugins.jetbrains.kotlin.android) apply false
 }
+buildscript {
+    repositories {
+        // ... your repositories
+        google()  // Google's Maven repository
+        mavenCentral() // Maven Central Repository
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle:8.0.0") // Or the latest compatible version
+        // ... other dependencies
+    }
+}
